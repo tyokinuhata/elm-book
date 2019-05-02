@@ -1,4 +1,6 @@
 # elm-book
+[基礎からわかるElm](https://www.amazon.co.jp/dp/4863542224)のサンプルコードとその他メモ.
+Elmのバージョンは0.19.0を使用.
 
 ### リンク
 - [公式サイト](https://elm-lang.org/)
