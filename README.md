@@ -1,7 +1,11 @@
 # elm-book
 
 ### リンク
+- [公式サイト](https://elm-lang.org/)
+- [公式ガイド](https://guide.elm-lang.org/)
+- [公式サイト(日本)](https://elm-lang.jp/)
 - [公式ガイド(日本語訳)](https://guide.elm-lang.jp/)
+- [Ellie(Elm Live Editor)](https://ellie-app.com)
 - [GitHub elm-jp/guide](https://github.com/elm-jp/guide)
 - [GitHub Elm](https://github.com/elm/)
 - [GitHub avh4/elm-format](https://github.com/avh4/elm-format)
@@ -18,4 +22,5 @@ $ elm                   // Elmの情報(バージョン等)を表示
 $ elm init              // Elmプロジェクトの作成(elm.jsonとsrcディレクトリの生成)
 $ elm make <file_name>  // Elmファイルのコンパイル
 $ elm reactor           // 組み込みサーバの起動
+$ elm repl              // REPLの起動
 ```
