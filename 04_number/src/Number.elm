@@ -1,5 +1,3 @@
-import Html exposing (text)
-
 -- 加減乗除には + - * / を使う
 add = 1 + 1
 sub = 1 - 1
