@@ -26,3 +26,11 @@ $ elm make <file_name>  // Elmファイルのコンパイル
 $ elm reactor           // 組み込みサーバの起動
 $ elm repl              // REPLの起動
 ```
+
+### elm repl
+
+```
+> :exit     // REPLを終了
+> :help     // ヘルプの表示
+> :reset    // ここまでの内容を全てクリア
+```
