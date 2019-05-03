@@ -14,6 +14,7 @@ Elmのバージョンは0.19.0を使用.
 - [GitHub avh4/elm-format](https://github.com/avh4/elm-format)
 - [Qiita Elmはどんな人にオススメできないか](https://qiita.com/arowM/items/dfb38d1c5f3dfde8b8bf)
 - [Qiita 2019年 Elmをはじめる人が最初に読むページ](https://qiita.com/arowM/items/5ec5853298fc880353b7)
+- [GitHub jinjor/elm-book(基礎からわかるElm サンプルコード)](https://github.com/jinjor/elm-book)
 - [Amazon 基礎からわかるElm](https://www.amazon.co.jp/dp/4863542224)
 
 ### コマンド
