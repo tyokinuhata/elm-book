@@ -5,7 +5,7 @@ Elmのバージョンは0.19.0を使用.
 ### リンク
 - [公式サイト](https://elm-lang.org/)
 - [公式ガイド](https://guide.elm-lang.org/)
-- [Elm Packages](https://package.elm-lang.org/)
+- [Elm Packages(APIドキュメント)](https://package.elm-lang.org/)
 - [Style Guide](https://elm-lang.org/docs/style-guide)
 - [公式サイト(日本)](https://elm-lang.jp/)
 - [公式ガイド(日本語訳)](https://guide.elm-lang.jp/)
