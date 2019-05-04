@@ -2,7 +2,7 @@
 isValid : { id : Int, name : String, image : String } -> Bool
 isValid user = String.length user.name > 0
 
-type alias User = { id: Int, name : String, image : String }
+type alias User = { id : Int, name : String, image : String }
 isValid2 : User -> Bool
 isValid2 user2 = String.length user2.name > 2
 
