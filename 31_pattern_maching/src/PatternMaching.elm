@@ -26,3 +26,59 @@ hello2 lang =
         "こんにちは"
     else
         "Bonjour"
+
+-- それぞれのバリアントに別の値を持たせることもできる
+-- LoggedIn ... ログイン中のユーザ
+-- Guest ... 匿名のゲスト
+type User = LoggedIn String | Guest
+
+user1 : User
+user1 = LoggedIn "Taro"
+
+user2 : User
+user2 = LoggedIn "Hanako"
+
+user3 : User
+user3 = Guest
+
+-- LoggedIn name -> の name は保持していたStringの値. 名前は文脈によって自由につけて良い
+message : User -> String
+message user =
+    case user of
+        LoggedIn name ->
+            "Hello, " ++ name ++ "!"
+        Guest ->
+            "Please Login."
+
+func1 = message user1
+func2 = message user2
+func3 = message user3
+
+-- カスタム型に２つの値をもたせることも可能
+type User2 = LoggedIn2 Bool String | Guest2
+
+message2 : User2 -> String
+message2 user =
+    case user of
+        LoggedIn2 isAdmin name ->
+            if isAdmin then
+                "Hello, " ++ name ++ "(Administrator)!"
+            else
+                "Hello, " ++ name ++ "!"
+        Guest2 ->
+            "Please Login."
+
+func4 = message2 (LoggedIn2 True "Taro")
+func5 = message2 (LoggedIn2 False "Hanako")
+func6 = message2 Guest2
+
+-- 上記のコードは以下のように簡略化して記述できる
+message3 : User2 -> String
+message3 user =
+    case user of
+        LoggedIn2 True name ->
+            "Hello, " ++ name ++ "(Administrator)!"
+        LoggedIn2 False name ->
+            "Hello, " ++ name ++ "!"
+        Guest2 ->
+            "Please Login."
