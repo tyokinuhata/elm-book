@@ -1,5 +1,5 @@
 # elm-book
-[基礎からわかるElm](https://www.amazon.co.jp/dp/4863542224)のサンプルコードとその他メモ.
+[基礎からわかる Elm](https://www.amazon.co.jp/dp/4863542224)のサンプルコードとその他メモ.
 Elmのバージョンは0.19.0を使用.
 
 ### リンク
@@ -15,7 +15,8 @@ Elmのバージョンは0.19.0を使用.
 - [Qiita Elmはどんな人にオススメできないか](https://qiita.com/arowM/items/dfb38d1c5f3dfde8b8bf)
 - [Qiita 2019年 Elmをはじめる人が最初に読むページ](https://qiita.com/arowM/items/5ec5853298fc880353b7)
 - [GitHub jinjor/elm-book(基礎からわかるElm サンプルコード)](https://github.com/jinjor/elm-book)
-- [Amazon 基礎からわかるElm](https://www.amazon.co.jp/dp/4863542224)
+- [ジンジャー研究室 Elm 本書きました](http://jinjor-labo.hatenablog.com/entry/2019/02/26/112019)
+- [Amazon 基礎からわかる Elm](https://www.amazon.co.jp/dp/4863542224)
 
 ### コマンド
 
