@@ -12,3 +12,7 @@ newUser = { user | name = "ALICE" }
 -- レコードは .フィールド名 という関数でアクセスすることもできる
 record3 = .id user
 record4 = .name user
+record5 = List.map .name [ { id = 1, name = "Alice" }, { id = 2, name = "Bob" } ]
+
+-- JavaScriptのオブジェクトのように, 文字列をキーにしてフィールドにアクセスしたり(user["name"]), 全てのフィールド名を列挙することはできない(Object.keys(user))
+-- そのようなことをしたい場合はDictを使う
